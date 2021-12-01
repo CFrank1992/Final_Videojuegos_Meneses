@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Final_Videojuegos_Meneses</string>
     <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_map2">Map2Activity</string>
 </resources>

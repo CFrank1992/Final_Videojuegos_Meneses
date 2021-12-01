@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/UPN/2021-2/Final_Videojuegos_Meneses/app/src/main/res/layout/activity_detail.xml" value="0.176" />
+        <entry key="..\:/UPN/2021-2/Final_Videojuegos_Meneses/app/src/main/res/layout/activity_detail_account.xml" value="0.1" />
+        <entry key="..\:/UPN/2021-2/Final_Videojuegos_Meneses/app/src/main/res/layout/activity_detail_show.xml" value="0.1" />
+        <entry key="..\:/UPN/2021-2/Final_Videojuegos_Meneses/app/src/main/res/layout/activity_detail_synchro.xml" value="0.11197916666666667" />
         <entry key="..\:/UPN/2021-2/Final_Videojuegos_Meneses/app/src/main/res/layout/activity_main.xml" value="0.2" />
       </map>
     </option>

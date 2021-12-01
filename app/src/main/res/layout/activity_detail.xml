@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detailActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/etNombreAccount"
+            android:layout_width="228dp"
+            android:layout_height="44dp"
+            android:ems="10"
+            android:hint="Ingrese un Nombre"
+            android:inputType="textPersonName" />
+
+
+
+        <EditText
+            android:id="@+id/etMontoAccount"
+            android:layout_width="228dp"
+            android:layout_height="44dp"
+            android:ems="10"
+            android:hint="Ingrese un Monto"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etFechaAccount"
+            android:layout_width="228dp"
+            android:layout_height="44dp"
+            android:ems="10"
+            android:hint="Ingrese una Fecha"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/etSucursal1Account"
+            android:layout_width="228dp"
+            android:layout_height="44dp"
+            android:ems="10"
+            android:hint="Ingrese la primera sucursal"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etSucursal2Account"
+            android:layout_width="228dp"
+            android:layout_height="44dp"
+            android:ems="10"
+            android:hint="Ingrese la segunda sucursal"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etSucursal3Account"
+            android:layout_width="228dp"
+            android:layout_height="44dp"
+            android:ems="10"
+            android:hint="Ingrese la tercera sucursal"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnOpenCamera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+        <ImageView
+            android:id="@+id/idCapture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
